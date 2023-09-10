@@ -482,7 +482,7 @@ library(tidyverse)
 
 ---
 
-# <mono>%>%</mono>
+# <mono>%>% |></mono>
 
 .pull-left45[
 
@@ -520,7 +520,7 @@ score %>%
 
 ---
 
-# <mono>%>%</mono>
+# <mono>%>% |></mono>
 
 .pull-left45[
 
@@ -1054,15 +1054,12 @@ options(tibble.width = 35, tibble.max_extra_cols = 10, tibble.print_max = 5,
 ```
 
 
-# <mono>tidyr</mono>
+# <mono>pivot_longer()</mono>
 
 .pull-left4[
 
 <ul>
-  <li class="m1"><span>Benefits over Base R:</span></li>
-  <ul class="level">
-    <li><span>Did not exist before.</span></li>
-  </ul></span></li>
+  <li class="m1"><span>Convert from <high>wide</high> to <high>long</high></span></li>
 </ul>
 
 <br>

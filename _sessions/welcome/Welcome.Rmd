@@ -1,48 +1,20 @@
 ---
-title: "Welcome!"
-author: "Communicating and Visualizing Data with R<br>
-
-  <br>
-  <a href='https://therbootcamp.github.io/DataViz_2022GSERM/'>
-    <i class='fas fa-home' style='font-size:1.4em;'></i>
-  </a>"
-date: "HS 2023"
+title: "Welcome"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
-    lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
       ratio: '16:9'
----
-
-layout: true
-
-<div class="my-footer">
-  <span style="text-align:center">
-    <span> 
-      <img src="https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/by-sa.png" height=14 style="vertical-align: middle"/>
-    </span>
-    <a href="https://therbootcamp.github.io/">
-      <span style="padding-left:82px"> 
-        <font color="#7E7E7E">
-          https://therbootcamp.github.io
-        </font>
-      </span>
-    </a>
-    <a href="https://therbootcamp.github.io/">
-      <font color="#7E7E7E">
-      HS 2023
-      </font>
-    </a>
-    </span>
-  </div> 
-
+    pandoc_args: '../_header.yaml'
+    includes:
+      before_body: '../_before.html'
 ---
 
 
+---
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 options(width=110)
@@ -100,13 +72,15 @@ Klicke auf <high>"....running..."</high> auf unserer Website!
 # Schedule 
 
 <ul>
-  <li class="m1"><span>Core of the workshop consists of 6 sessions on R. Each session is structured into:</span></li>
+  <li class="m1"><span>Class consists of 6 sessions on R. Each session is structured into:</span></li>
   <ul class="level">
-    <li><span>30-60min introduction</high></span></li> 
-    <li><span>30-60min coding exercises</span></li> 
-    <li><span>5-10min Q&A</span></li> 
+    <li><span>Recap</high></span></li> 
+    <li><span>Introduction to new topic(s)</high></span></li> 
+    <li><span>Coding exercises</span></li>
+    <li><span>Project work</span></li>
+    <li><span>Q&A</span></li> 
   </ul>
-  <li class="m2"><span>Additional sessions & afternoon assignments to advance your visualization project.</span></li>
+  <li class="m2"><span>There are specific assignments (pitch, presentation, report) between sessions. You are also expected to finish up practicals if you don't finish within one session. </span></li>
 </ul>
 
 ]
@@ -227,25 +201,13 @@ Klicke auf <high>"....running..."</high> auf unserer Website!
 
 ---
 
-# Who are we?
+# Who am I?
 
 <table class="tg"  style="cellspacing:0; cellpadding:0; border:none">
-  <col width="22%">
-  <col width="22%">
-  <col width="22%">
+  <col width="40%">
+  <col width="40%">
   <tr>
-    <th class="tg-yw4l" valign='top'>
-    <p align="center">
-    <a href="www.dirkwulff.org"><img border="0" alt="W3Schools" src="https://therbootcamp.github.io/img/team/1.png" height="230" style="border-radius:50%"></a><br>
-    <p align="center">
-    <font size = 5>Dr. Dirk Wulff</font><br><br><br>
-    <a href="www.dirkwulff.org"><b>dirkwulff.org</b></a><br>
-    <a href="https://github.com/dwulff"><b>github.com/dwulff</b></a><br>
-    <font size=4><i>packages: </i></font> 
-    <a href="https://cran.r-project.org/web/packages/text2sdg/index.html"><b>text2sdg</b></a>, <a href="https://cran.r-project.org/web/packages/cstab/index.html"><b>cstab</b></a>, <br>
-    <a href="https://cran.r-project.org/web/packages/mousetrap/index.html"><b>mousetrap</b></a>, <a href="https://cran.r-project.org/web/packages/memnet/index.html"><b>memnet</b>, <a href="https://github.com/dwulff/choicepp"><b>choicepp</b>
-    </p>  
-  </th>
+ 
   
   <th class="tg-yw4l" valign='top'>
     <p align="center">
@@ -281,8 +243,9 @@ Klicke auf <high>"....running..."</high> auf unserer Website!
 <ul>
   <li class="m1"><span>What is your name?</span></li><br>
   <li class="m2"><span>Where are you from?</span></li><br>
-  <li class="m3"><span>How much experience do you have with R?</span></li><br>
-  <li class="m4"><span>What is your goal behind wanting to learn data visualization with R?</span></li>
+  <li class="m3"><span>Main study topic?</span></li><br>
+  <li class="m4"><span>How much experience do you have with R?</span></li><br>
+  <li class="m5"><span>What is your goal behind wanting to learn data visualization with R?</span></li>
 </ul>
 
 ]
@@ -308,6 +271,6 @@ class: middle, center
 
 class: middle, center
 
-<h1><a href="https://therbootcamp.github.io/DataViz_2022GSERM/">Schedule</a></h1>
+<h1><a href="https://michaelschulte.github.io/CaVD_HS2023/">Schedule</a></h1>
 
 

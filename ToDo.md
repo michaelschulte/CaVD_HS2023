@@ -9,6 +9,12 @@
 03.11.
 08.12.
 
+## update links
+
+- Welcome.Rmd 3/11 -> Schedule update
+- Welcome.Rmd 10/11 -> Download Project link
+- Intro2R.Rmd 32/36 -> screenshot R studio
+- Intro2R.Rmd 35/36 -> screenshot project directory
 
 ## Intro2R.Rmd updated to use header.yaml - use as template for rest
 

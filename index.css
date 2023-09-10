@@ -112,17 +112,16 @@ h2 {
 }
 
 .td-special-blue {
-  font-weight:100;
-  font-style: italic;
+  font-weight: 400;
   background-color:#7FBDF7;
   color:#ffffff;
 }
 
 .td-special-grey {
   font-weight:100;
-  font-style: italic;
   background-color:#DDDEE0;
   color:#000000;
+  text-align: center;
 }
 
 .td-red {
