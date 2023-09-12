@@ -1,55 +1,18 @@
 ---
 title: "Principles"
-author: "Visualizing and communicating data with R<br>
-  <a href='https://therbootcamp.github.io'>
-    <font style='font-size:1.4em'>The R Bootcamp @ GSERM</font>
-  </a>
-  <br>
-  <a href='https://therbootcamp.github.io/DataViz_2022GSERM/'>
-    <i class='fas fa-clock' style='font-size:1.4em;'></i>
-  </a>&#8239; 
-  <a href='https://therbootcamp.github.io'>
-    <i class='fas fa-home' style='font-size:1.4em;' ></i>
-  </a>&#8239;
-  <a href='therbootcamp@gmail.com'>
-    <i class='fas fa-envelope' style='font-size: 1.4em;'></i>
-  </a>&#8239;
-  <a href='https://www.linkedin.com/company/27090302'>
-    <i class='fab fa-linkedin' style='font-size: 1.4em;'></i>
-  </a>"
-date: "June 2022"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
-    lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
       ratio: '16:9'
+    pandoc_args: '../_header.yaml'
+    includes:
+      before_body: '../_before.html'
 ---
 
-layout: true
-
-<div class="my-footer">
-  <span style="text-align:center">
-    <span> 
-      <img src="https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/by-sa.png" height=14 style="vertical-align: middle"/>
-    </span>
-    <a href="https://therbootcamp.github.io/">
-      <span style="padding-left:82px"> 
-        <font color="#7E7E7E">
-          https://therbootcamp.github.io
-        </font>
-      </span>
-    </a>
-    <a href="https://therbootcamp.github.io/">
-      <font color="#7E7E7E">
-      The R Bootcamp | June 2022
-      </font>
-    </a>
-    </span>
-  </div> 
 
 ---
 

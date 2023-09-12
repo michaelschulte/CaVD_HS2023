@@ -86,7 +86,7 @@ Klicke auf <high>"....running..."</high> auf unserer Website!
 ]
 
 .pull-right5[
-<br><br><br>
+<br><br><br><br><br>
 <img src="image/schedule.png" align="center" style="padding-top:16px">
 
 ]

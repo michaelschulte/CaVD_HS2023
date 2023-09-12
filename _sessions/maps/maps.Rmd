@@ -1144,7 +1144,14 @@ network %>%
 
 class: middle, center
 
-<h1><font style="font-size:12px">click to download</font><br><a href="https://www.dropbox.com/s/mx2x5bak5gie7sb/Maps%26Nets.Rmd?dl=1">Practical</a></h1>
+<h1><a href="https://michaelschulte.github.io/CaVD_HS2023/_sessions/maps/Practical_Maps.html">Practical</a></h1>
+
+
+---
+
+class: middle, center
+
+<h1><a href="https://michaelschulte.github.io/CaVD_HS2023/">Schedule</a></h1>
 
 
 
