@@ -11,11 +11,6 @@
 
 ## update links
 
-- Installation -> Teams link statt slack
-- Welcome.Rmd 10/11 -> Download Project link
-- Intro2R.Rmd 32/36 -> screenshot R studio
-- Intro2R.Rmd 35/36 -> screenshot project directory
-- Rename all Practical headers with Practial-XX
 
 
 

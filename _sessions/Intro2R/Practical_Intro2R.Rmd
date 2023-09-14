@@ -1,5 +1,5 @@
 ---
-title: "Intro to R practical"
+title: "Practical: Intro to R"
 output:
 editor_options:
   chunk_output_type: console
@@ -22,7 +22,7 @@ library(tidyverse)
 2. Use the code below to read in the `taxation.csv` data set and store it as an object called `basel`. The messages printed in the console tell you how R has inferred the types of each of the columns. Should be all good.
 
 ```{r }
-basel <- read_csv('../1_data/taxation.csv')
+basel <- read_csv('1_data/taxation.csv')
 ```
 
 3. Take a look at `basel` by sending it to console. Note how the `tibble` shows types for each of the columns. Also note how some cases and variables are abbreviated. 

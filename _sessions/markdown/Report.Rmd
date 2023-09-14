@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 require(tidyverse)
 require(patchwork)
 
-basel = read_csv("1_Data/taxation.csv")
+basel = read_csv("1_data/taxation.csv")
 ```
 
 

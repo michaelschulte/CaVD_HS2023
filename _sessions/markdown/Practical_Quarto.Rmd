@@ -1,5 +1,5 @@
 ---
-title: "Markdown report"
+title: "Practical: Quarto"
 output:
 editor_options:
   chunk_output_type: console
