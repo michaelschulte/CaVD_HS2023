@@ -29,6 +29,13 @@ https://rstudio-conf-2022.github.io/ggplot2-graphic-design/
 
 
 
+aleks.nenic@students.unibe.ch;
+deniz.dincer@students.unibe.ch;
+david.andrist@students.unibe.ch;
+yasmine.pupet@students.unibe.ch;
+cynthia.bran@students.unibe.ch;
+
+
 # EMAIL
 
 Dear all,
