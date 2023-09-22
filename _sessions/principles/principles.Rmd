@@ -523,6 +523,27 @@ library(gridExtra)
 
 ---
 
+# Charts
+
+.pull-left3[
+
+<ul>
+  <li class="m1"><span>Provide an idea about <high>confidence</high> in your measurement.</span></li>
+  <li class="m2"><span>Use <high>range, confidence intervals or standard deviations</high> to indicate confidence.</span></li>
+</ul>
+
+]
+
+.pull-right6[
+<p align="center">
+<img src="image/error_area.png" height="440px"><br>
+<font style="font-size:10px">adapted from <a href="http://www.storytellingwithdata.com/">storytellingwithdata.com</a></font>
+</p>
+
+]
+
+---
+
 # Annotation
 
 .pull-left3[
