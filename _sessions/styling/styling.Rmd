@@ -416,7 +416,7 @@ my_plot +
 # `theme()`
 
 <ul>
-  <li class="m1"><span>With <high>87 arguments</high> <mono>theme()</mono> permits specification of all aesthetic details.</span></li>
+  <li class="m1"><span>With <high>96 arguments</high> <mono>theme()</mono> permits specification of all aesthetic details.</span></li>
   <li class="m2"><span>Makes uses of helper functions:</span></li>
   <ul class="level">
     <li><span><mono>element_rect()</mono> | for rectangles</span></li>
