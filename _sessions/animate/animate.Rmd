@@ -43,6 +43,7 @@ basel_map = sf::read_sf('1_Data/quarters')
 
 
 
+
 .pull-left3[
 
 # Animations with <mono>gganimate</mono>
@@ -58,6 +59,11 @@ basel_map = sf::read_sf('1_Data/quarters')
 .pull-right6[
 
 ```{r, echo = FALSE, fig.width = 5, fig.height = 4, dpi=250, fig.align='center'}
+
+#remove.packages("gganimate")
+
+#install.packages("https://cran.r-project.org/src/contrib/Archive/gganimate/gganimate_1.0.7.tar.gz", repos = NULL, type = "source")
+
 quarters_map <- basel_map %>% 
   left_join(basel,by = c("TYPE" = "quarter"))
 
@@ -70,7 +76,9 @@ p = quarters_map %>%
   ggtitle(label = "Inequality in Basel", 
           subtitle = "Average income in Basel's quarters in {closest_state}") +
   labs(caption = "Source: Open Data Basel Stadt") +
-  transition_states(year, 
+
+  transition_states(
+    states = year, 
     transition_length = 10,
     state_length = 0)
 
@@ -544,7 +552,7 @@ animate(p, 100)
 ```{r, eval = FALSE, fig.width = 5, fig.height = 4, dpi=250}
 # plot code
 basel %>% 
-  ggplot(...) +
+  ggplot(..., label = quarter) +
   
   # transition length 10
   transition_states(year, 
@@ -595,7 +603,7 @@ animate(p, 100)
   <ul class="level">
     <li><span><mono>shadow_mark()</mono> shows past and/or future states</span></li>
     <li><span><mono>shadow_wake()</mono> shows wake of data</span></li>
-    <li><span><mono>shadow_trail()</mono> shows past data</span></li>
+    
   </ul>
 </ul>
 
@@ -648,7 +656,7 @@ animate(p, 100)
   <ul class="level">
     <li><span><mono>shadow_mark()</mono> shows past and/or future states</span></li>
     <li><span><mono>shadow_wake()</mono> shows wake of data</span></li>
-    <li><span><mono>shadow_trail()</mono> shows past data</span></li>
+
   </ul>
 </ul>
 
@@ -702,7 +710,7 @@ animate(p, 100)
   <ul class="level">
     <li><span><mono>shadow_mark()</mono> shows past and/or future states</span></li>
     <li><span><mono>shadow_wake()</mono> shows wake of data</span></li>
-    <li><span><mono>shadow_trail()</mono> shows past data</span></li>
+
   </ul>
 </ul>
 
@@ -755,7 +763,7 @@ animate(p, 100)
   <ul class="level">
     <li><span><mono>shadow_mark()</mono> shows past and/or future states</span></li>
     <li><span><mono>shadow_wake()</mono> shows wake of data</span></li>
-    <li><span><mono>shadow_trail()</mono> shows past data</span></li>
+
   </ul>
 </ul>
 
@@ -1155,7 +1163,6 @@ p
 class: middle, center
 
 <h1><a href="https://michaelschulte.github.io/CaVD_HS2023/_sessions/animate/Practical_Animate.html">Practical</a></h1>
-
 
 ---
 

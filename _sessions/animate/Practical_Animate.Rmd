@@ -1,9 +1,16 @@
 ---
-title: "Maps & Nets"
+title: "Maps"
 output:
 editor_options:
   chunk_output_type: console
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, 
+                      warning = FALSE,
+                      eval = FALSE,
+                      echo = TRUE)
+```
 
 In this practical, you will in different ways animate a plot showing the link between wealth and income in Basel in the year 2017.   
 
