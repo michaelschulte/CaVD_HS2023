@@ -13,6 +13,7 @@ output:
       before_body: '../_before.html'
 ---
 
+
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 options(width = 110)
@@ -109,6 +110,7 @@ basel <- read_csv("1_data/taxation.csv")
     <li><span>Publishing system</span></li>
     <li><span>Create content with <high>Python, R, Julia ...</high></span></li>
     <li><span>articles, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub</span></li>  
+    <li><span>requires separate installation: https://www.quarto.org<span></li>
   </ul>
 </ul>
 
@@ -203,7 +205,7 @@ basel <- read_csv("1_data/taxation.csv")
   <li class="m1"><span>Quarto can be translated into different <high>document types</high>.</span></li><br>
     <ul>
     <li><span>PDF</span></li>
-    <li><span>HTML</span></li>   
+    <li><span><highl>HTML</highl></span></li>   
     <li><span>Word</span></li>
     <li><span>PowerPoint</span></li>
   </ul><br>
@@ -216,27 +218,6 @@ basel <- read_csv("1_data/taxation.csv")
 
 <p align = "center">
   <img src="image/quarto_pipeline.png">
-</p>
-
-]
-
----
-
-# HTML Pipeline
-
-.pull-left4[
-
-<ul>
-  <li class="m1"><span>HTML is a <high>universal framework</high> for documents, presentations, and dashboards</span></li>
-  <li class="m2"><span>HTML <high>export to PDF</high> is often straightforward.</span></li><br>
-</ul>
-
-]
-
-.pull-right5[
-
-<p align = "center">
-  <img src="image/pipeline2.png">
 </p>
 
 ]
@@ -1991,11 +1972,11 @@ read_csv("../1_data/data.csv")
 
 class: middle, center
 
-<h1><font style="font-size:12px">click to open</font><br><a href="https://scanserveruls.unibe.ch/evasys/online.php?pswd=KWVN9 ">Evaluation</a></h1>
+<h1><a href="https://scanserveruls.unibe.ch/evasys/online.php?pswd=KWVN9 ">Evaluation</a></h1>
 
 ---
 
 class: middle, center
 
-<h1><font style="font-size:12px">click to open</font><br><a href="https://therbootcamp.github.io/DataViz_2022GSERM/_sessions/markdown/markdown_report.html">Practical</a></h1>
+<h1><a href="_sessions/quarto/quarto_report.html">Practical</a></h1>
 

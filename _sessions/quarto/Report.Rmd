@@ -1,19 +1,19 @@
 ---
 title: "Do the rich get richer in Basel?"
-date: '2022-06-23'
+date: '2023-11-03'
 author: "The R Bootcamp"
 output: 
   html_document: 
-    theme: flatly
+  theme: flatly
 ---
-
+  
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
 require(tidyverse)
 require(patchwork)
 
-basel = read_csv("1_data/taxation.csv")
+basel = read_csv("1_Data/taxation.csv")
 ```
 
 
@@ -32,7 +32,7 @@ The figure below shows the development of income (panel A) and wealth (panel B) 
 basel <- basel %>%
   arrange(year, income_mean) %>% 
   mutate(quarter = as_factor(quarter)) 
-  
+
 # create income plot
 plot_income <- basel %>% 
   ggplot(aes(x = year, y = income_mean, col = quarter)) +
@@ -57,13 +57,12 @@ plot_income + plot_wealth  +
   theme(legend.position = "bottom",
         legend.title = element_blank(),
         legend.key.height = unit(.01,"in"))
-  
+
 ```
 
 ### Limitations and outlook
 
 The presented analysis of income and wealth inequalities based on Basel's quarters comes with several limitations. Most importantly, the analysis does not account for mobility, implying that some of the temporal differences could driven by changes in the quarters' inhabitants. More detailed analyses which track inhabited across time will be needed to  demonstrate conclusively a widening of inequality in Basel. 
-
 
 
 
