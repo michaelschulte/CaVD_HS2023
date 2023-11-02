@@ -1,56 +1,16 @@
 ---
-title: "markdown"
-author: "Visualizing and communicating data with R<br>
-  <a href='https://therbootcamp.github.io'>
-    <font style='font-size:1.4em'>The R Bootcamp @ GSERM</font>
-  </a>
-  <br>
-  <a href='https://therbootcamp.github.io/DataViz_2022GSERM/'>
-    <i class='fas fa-clock' style='font-size:1.4em;'></i>
-  </a>&#8239; 
-  <a href='https://therbootcamp.github.io'>
-    <i class='fas fa-home' style='font-size:1.4em;' ></i>
-  </a>&#8239;
-  <a href='therbootcamp@gmail.com'>
-    <i class='fas fa-envelope' style='font-size: 1.4em;'></i>
-  </a>&#8239;
-  <a href='https://www.linkedin.com/company/27090302'>
-    <i class='fab fa-linkedin' style='font-size: 1.4em;'></i>
-  </a>"
-date: "June 2022"
+title: "Quarto"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
-    lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
       ratio: '16:9'
----
-
-layout: true
-
-<div class="my-footer">
-  <span style="text-align:center">
-    <span> 
-      <img src="https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/by-sa.png" height=14 style="vertical-align: middle"/>
-    </span>
-    <a href="https://therbootcamp.github.io/">
-      <span style="padding-left:82px"> 
-        <font color="#7E7E7E">
-          https://therbootcamp.github.io
-        </font>
-      </span>
-    </a>
-    <a href="https://therbootcamp.github.io/">
-      <font color="#7E7E7E">
-      The R Bootcamp | June 2022
-      </font>
-    </a>
-    </span>
-  </div> 
-
+    pandoc_args: '../_header.yaml'
+    includes:
+      before_body: '../_before.html'
 ---
 
 ```{r setup, include=FALSE}
@@ -76,6 +36,7 @@ print2 <- function(x, nlines=10,...) {
 basel <- read_csv("1_data/taxation.csv")
 
 ```
+---
 
 # What is Markdown?
 
@@ -138,12 +99,38 @@ basel <- read_csv("1_data/taxation.csv")
 
 ---
 
-# R Markdown elements
+# What is Quarto?
 
 .pull-left4[
 
 <ul>
-  <li class="m1"><span>RMarkdown scripts consist of several <high>elements</high>.</span></li>
+  <li class="m1"><span>The new kid on the block ... </span></li><br> 
+  <ul>
+    <li><span>Publishing system</span></li>
+    <li><span>Create content with <high>Python, R, Julia ...</high></span></li>
+    <li><span>articles, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub</span></li>  
+  </ul>
+</ul>
+
+]
+
+.pull-right5[
+
+<p align = "center">
+  <img src="image/quarto.png" height=300><br>
+  <font style="font-size:10px">from <a href="https://quarto.org">https://quarto.org</a></font>
+</p>
+
+]
+
+---
+
+# R Markdown / Quarto elements
+
+.pull-left4[
+
+<ul>
+  <li class="m1"><span>Quarto scripts consist of several <high>elements</high>.</span></li>
 </ul>
 
 <table style="cellspacing:0; cellpadding:0; border:none; padding-top:10px" width=100%>
@@ -213,7 +200,7 @@ basel <- read_csv("1_data/taxation.csv")
 .pull-left4[
 
 <ul>
-  <li class="m1"><span>RMarkdown can be translated into different <high>document types</high>.</span></li><br>
+  <li class="m1"><span>Quarto can be translated into different <high>document types</high>.</span></li><br>
     <ul>
     <li><span>PDF</span></li>
     <li><span>HTML</span></li>   
@@ -228,7 +215,7 @@ basel <- read_csv("1_data/taxation.csv")
 .pull-right5[
 
 <p align = "center">
-  <img src="image/pipeline.png">
+  <img src="image/quarto_pipeline.png">
 </p>
 
 ]
