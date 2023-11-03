@@ -383,8 +383,8 @@ packages you need and the data.</p></li>
 <li><p>Next replace the text <code>FOOTNOTE</code> with the actual
 footnote
 <code>^[See https://www.un.org/en/un75/inequality-bridging-divide.]</code>.</p></li>
-<li><p>Knit the document (i.e., hit the <code>Knit</code> button) and
-observe whether the new contents are accurately displayed.</p></li>
+<li><p>Render the document (i.e., hit the <code>Render</code> button)
+and observe whether the new contents are accurately displayed.</p></li>
 </ol>
 </div>
 <div id="data" class="section level3">
@@ -403,7 +403,7 @@ inline code (not apostrophes as used here).</p></li>
 <li><p>Replace the text <code>LINK</code> with
 <code>[Open Data Basel](https://www.opendata.bs.ch/)</code> to link to
 the Basel Open Data webpage.</p></li>
-<li><p>Knit the document and observe whether the new contents are
+<li><p>Render the document and observe whether the new contents are
 displayed.</p></li>
 </ol>
 </div>
@@ -418,8 +418,8 @@ add a couple of items within the setup chunk (below the
 Note that when running the rmarkdown file it will use its own location
 as the working directory. Consequently, use
 <code>../1_data/taxation.csv</code> as the file path.</p></li>
-<li><p>Knit the document and observe that the changes to the setup chunk
-have no <em>visible</em> effect due to
+<li><p>Render the document and observe that the changes to the setup
+chunk have no <em>visible</em> effect due to
 <code>include = FALSE</code>.</p></li>
 </ol>
 </div>
@@ -470,14 +470,14 @@ plot_income + plot_wealth  +
         legend.key.height = unit(.01,&quot;in&quot;))
   </code></pre>
 <ol start="5" style="list-style-type: decimal">
-<li><p>Knit the document and observe that there it now includes code and
-a visualization.</p></li>
+<li><p>REnder the document and observe that there it now includes code
+and a visualization.</p></li>
 <li><p>Add the following two changes to the chunk settings:
 <code>echo = FALSE</code> to hide the code (but not the visualization)
 and <code>fig.asp=.7</code> to use more of the width of the document,
 and <code>fig.fullwidth=TRUE</code>.</p></li>
-<li><p>Knit the document and observe that the code is no longer visible
-and that the aspect ratio of the plot has changed.</p></li>
+<li><p>Render the document and observe that the code is no longer
+visible and that the aspect ratio of the plot has changed.</p></li>
 </ol>
 </div>
 <div id="conclusion" class="section level3">
@@ -489,8 +489,8 @@ title <code>Income and wealth</code>.</p></li>
 </ol>
 <pre><code>The presented analysis of income and wealth inequalities based on Basel&#39;s quarters comes with several limitations. Most importantly, the analysis does not account for mobility, implying that some of the temporal differences could driven by changes in the quarters&#39; inhabitants. More detailed analyses which track inhabited across time will be needed to  demonstrate conclusively a widening of inequality in Basel.</code></pre>
 <ol start="3" style="list-style-type: decimal">
-<li>Knit the document and observe that all of the report’s contents are
-now included.</li>
+<li>Render the document and observe that all of the report’s contents
+are now included.</li>
 </ol>
 </div>
 <div id="theme" class="section level3">
@@ -509,7 +509,7 @@ output:
     theme: flatly
 ---</code></pre>
 <ol start="2" style="list-style-type: decimal">
-<li>Knit the document and observe that the report is complete..</li>
+<li>Render the document and observe that the report is complete..</li>
 </ol>
 </div>
 
