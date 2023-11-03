@@ -9,13 +9,15 @@ In this practical, you will [**recreate this html report**](Report.html).
 
 ### 0 - Preliminaries
 
-1. Go to the File - New File menu and select the file type R Markdown, enter the title `Do the rich get richer in Basel?` and your name, and then hit ok. 
+1. Go to the File - New File menu and select the file type Quarto Docuyment, enter the title `Do the rich get richer in Basel?` and your name, and then hit ok. 
 
-2. Click on the little gear symbol on top of the editor and select `Preview in Viewer Pane`. 
+2. Click the `Render` button and observe whether the template content currently included in the file is correctly rendered and displayed in the Viewer Pane. When you render for the first time, you will be asked to choose a file name. Call the document `basel_report`
 
-3. Click the `Knit` button and observe whether the template content currently included in the file is correctly rendered and displayed in the Viewer Pane. When you knit for the first time, you will be asked to choose a file name. Call the document `basel_report`
+3. Clear everything in the document except for the YAML header.
 
-4. Clear everything in the document except for the YAML header and the code chunk named `setup`.  
+4. Add a setup chunk as displayed in the image below - loading the packages you need and the data.
+
+![](image/setup.png)
 
 ### 2 - Intro
 
